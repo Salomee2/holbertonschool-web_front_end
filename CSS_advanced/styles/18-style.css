@@ -36,9 +36,9 @@ box-sizing: border-box;
 --nav-item-font-family: var(--font-family-title);
 --nav-item-font-weight: var(--font-weight-bold);
 --nav-item-font-size: var(--font-size-medium);
---nav-item-letter-spacing: calc(4% * 1rem);
+--nav-item-letter-spacing: calc(0.04em);
 --nav-item-display: inline-block;
---nav-item-margin: calc(3 * 1rem) 0 0 0;
+--nav-item-margin: 3rem 0 0 0;
 --nav-item-link-hover: var(--color-primary);
 }
 html {
@@ -90,6 +90,7 @@ text-align: var(--section-footer-align);
 
 .navbar-menu {
 float: right;
+padding: 0;
 }
 
 .nav {
